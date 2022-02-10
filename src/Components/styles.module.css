@@ -135,11 +135,10 @@ h2 {
 
 .none {
   display: none;
-  transition: opacity 1s ease-out;
 }
 /*Projects*/
 .main {
-  background: linear-gradient(180deg, #0081a7, #1e2749);
+  background: linear-gradient(180deg, #13476a 22.08%, #1e2749 50.47%);
   font-family: 'Quicksand', sans-serif;
   height: 45rem;
 }

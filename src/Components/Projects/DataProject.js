@@ -1,6 +1,6 @@
 export const DataProject = [
   {
-    img: '../../static/img/principal.png',
+    img: './../static/img/principal.png',
     titulo: 'Portfolio em React',
     descricao:
       'Site Porftolio contendo informaçoes academicas e profissionais uitilizando ReactJS',

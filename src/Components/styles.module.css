@@ -298,12 +298,12 @@ a {
   margin-top: 34px;
 }
 
-.github {
+.github a {
   width: 32px;
   height: 32px;
   cursor: pointer;
 }
-.linkedin {
+.linkedin a {
   cursor: pointer;
   width: 32px;
   height: 32px;
@@ -398,4 +398,7 @@ textarea {
   margin-bottom: 63px;
   float: right;
   margin-top: 15px;
+}
+.sendBtn:hover {
+  background-color: rgba(0, 175, 185, 1);
 }

@@ -17,15 +17,27 @@ const Contact = () => {
         </div>
         <div className={styles.socialMedia}>
           <div className={styles.github}>
-            <img src={Github} alt="GitHub logo" />
+            <a
+              href="https://github.com/Guilherme-Turri"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Github} alt="LinkedIn logo" />
+            </a>
           </div>
           <div className={styles.linkedin}>
-            <img src={Linkedin} alt="LinkedIn logo" />
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Linkedin} alt="LinkedIn logo" />
+            </a>
           </div>
         </div>
         <div className={styles.dataGuilherme}>
           <p>guilhermeturri@icloud.com</p>
-          <p>(12)991272945</p>
+          <p>(12)991272956</p>
         </div>
       </div>
       <div className={styles.contactRight}>

@@ -61,7 +61,7 @@ const Projects = () => {
         </button>
         <button onClick={handleRightClick}>
           <img
-            src="../../static/img/right.png"
+            src="./../static/img/right.png"
             alt="scroll left"
             width="30px"
             height="30px"

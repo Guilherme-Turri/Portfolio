@@ -2,7 +2,6 @@ import React from 'react';
 import styles from '../../Components/styles.module.css';
 import { DataExperience } from './DataExperience.js';
 const Experience = () => {
-  console.log(DataExperience[0]);
   return (
     <div className={styles.experienceContainer}>
       <div className={styles.title}>

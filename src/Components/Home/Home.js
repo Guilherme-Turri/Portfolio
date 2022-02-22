@@ -5,12 +5,12 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.flexLeft}>
-        <p className={styles.hi}> Hi, I'm</p>
-        <h1 className={styles.name}>Guilherme Turri</h1>
-        <h2>
+        <div className={styles.hi}> Hi, I'm</div>
+        <div className={styles.name}>Guilherme Turri</div>
+        <div className={styles.frontend}>
           {' '}
-          I'm a <span className={styles.span1}> Front End Developer</span>
-        </h2>
+          I'm a <span className={styles.spanBlue}> Front End Developer</span>
+        </div>
         <p className={styles.description}>
           {' '}
           For almost 13 years working and studing in the IT area in <br />
@@ -19,7 +19,9 @@ const Home = () => {
       </div>
 
       <div className={styles.flexRight}>
-        <Svg />
+        <div className={styles.symbol}>
+          <Svg />
+        </div>
       </div>
     </div>
   );

@@ -13,21 +13,23 @@ const About = () => {
     }
     setSelected(index);
   };
-  const nulo = React.useRef('');
 
-  React.useEffect(() => {}, []);
+  React.useEffect(() => {
+    setSelected(0);
+  }, []);
 
   return (
     <div className={styles.about}>
       <div className={styles.title}>
-        <h3>Academic Education</h3>
+        Academic Education
         <p className={styles.formacao}>
           {' '}
           Ciência da Computação UNIP -{' '}
           <span className={styles.span2}>Concluído em 2016</span>
         </p>
+        <div className={(styles.title, styles.title2)}>Certificades</div>
       </div>
-      <div className={styles.title2}>Certificades</div>
+
       <div className={styles.containerCertificade}>
         {Data.map((item, index) => (
           <div
@@ -40,12 +42,20 @@ const About = () => {
               <spam>{selected === index ? open : closed}</spam>
             </div>
             <div
-              ref={nulo}
               className={
                 selected === index ? styles.descricaoAccordion : styles.none
               }
             >
-              {item.local} - conclusão em {item.conclusao}
+              {' '}
+              {selected === 0 ? (
+                <p>
+                  {item.local} - {item.conclusao}
+                </p>
+              ) : (
+                <p>
+                  {item.local} - conclusão em {item.conclusao}
+                </p>
+              )}
             </div>
           </div>
         ))}

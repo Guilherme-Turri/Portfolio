@@ -2,7 +2,7 @@ export const Data = [
   {
     curso: 'React',
     local: 'Origamid',
-    conclusao: 'breve',
+    conclusao: 'cursando',
   },
   {
     curso: 'JavaScript ES6',

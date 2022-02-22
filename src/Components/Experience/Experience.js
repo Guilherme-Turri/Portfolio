@@ -4,9 +4,7 @@ import { DataExperience } from './DataExperience.js';
 const Experience = () => {
   return (
     <div className={styles.experienceContainer}>
-      <div className={styles.title}>
-        <h3>Experience</h3>{' '}
-      </div>
+      <div className={styles.title}>Experience</div>
       <div className={styles.jobs}>
         {DataExperience.map((item) => (
           <>

@@ -1,9 +1,0 @@
-[
-  {
-    "img": "./../static/img/principal.png",
-    "titulo": "Portfolio em React",
-    "descricao": "Site Porftolio contendo informaçoes academicas e profissionais uitilizando ReactJS'",
-    "git": "https://github.com/Guilherme-Turri",
-    "site": "https://www.google.com/"
-  }
-]

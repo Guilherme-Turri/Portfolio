@@ -1,22 +1,21 @@
 import React from 'react';
 import styles from '../../Components/styles.module.css';
 import { DataProject } from './DataProject.js';
+import foto from '../../Assets/principal.png';
+import arrow from '../../Assets/right.png';
 
 const Projects = () => {
   const carrousel = React.useRef(null);
 
   const handleLeftClick = (e) => {
     e.preventDefault();
-    console.log('clicou esquedo');
-    console.log(carrousel.current.offsetWidth);
     carrousel.current.scrollLeft -= carrousel.current.offsetWidth;
   };
   const handleRightClick = (e) => {
     e.preventDefault();
-    console.log('clicou direito');
-    console.log(carrousel.current);
     carrousel.current.scrollLeft += carrousel.current.offsetWidth;
   };
+
   return (
     <div className={styles.main}>
       <div className={styles.title3}> Projects</div>
@@ -25,12 +24,7 @@ const Projects = () => {
           {DataProject.map((item) => (
             <div className={styles.itemProjects}>
               <div className={styles.imgContainer}>
-                <img
-                  src={item.img}
-                  alt={item.titulo}
-                  width="100%"
-                  height="100%"
-                />
+                <img src={foto} alt={item.titulo} width="100%" height="100%" />
               </div>
               <div className={styles.titleItem}>{item.titulo}</div>
               <div className={styles.itemDescription}>{item.descricao}</div>
@@ -52,20 +46,10 @@ const Projects = () => {
       </div>
       <div className={styles.sliderContainer}>
         <button onClick={handleLeftClick}>
-          <img
-            src="../../static/img/right.png"
-            alt="scroll left"
-            width="30px"
-            height="30px"
-          />
+          <img src={arrow} alt="scroll left" width="30px" height="30px" />
         </button>
         <button onClick={handleRightClick}>
-          <img
-            src="./../static/img/right.png"
-            alt="scroll left"
-            width="30px"
-            height="30px"
-          />
+          <img src={arrow} alt="scroll left" width="30px" height="30px" />
         </button>
       </div>
     </div>

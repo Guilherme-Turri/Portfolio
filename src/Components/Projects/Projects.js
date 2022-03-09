@@ -17,7 +17,7 @@ const Projects = () => {
   };
 
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id="projects">
       <div className={styles.title3}> Projects</div>
       <div className={styles.containerProjects} ref={carrousel}>
         <div className={styles.containerItem}>

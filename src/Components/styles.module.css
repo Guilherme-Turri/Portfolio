@@ -10,7 +10,7 @@ p {
 
 /*HOME*/
 .container {
-  height: 100vh;
+  height: 102vh;
   background: linear-gradient(180deg, #1e2749 3.47%, #0081a7 272.08%);
   display: flex;
 }
@@ -155,6 +155,7 @@ p {
   overflow-y: hidden;
   scroll-behavior: smooth;
 }
+
 .imgContainer {
   height: 190px;
   border-radius: 10px 10px 0 0;
@@ -359,5 +360,44 @@ textarea {
   }
   .contactRight {
     width: 100%;
+  }
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.938rem;
+  line-height: 1.188rem;
+  color: #1e2749;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  position: fixed;
+}
+.headerList {
+  padding-right: 2.5rem;
+  padding-top: 2.5rem;
+  background: none;
+  cursor: pointer;
+  color: #1e2749;
+}
+
+.header ul:hover {
+  display: flex;
+  list-style: none;
+  position: fixed;
+}
+.linkColor {
+  padding-right: 2.5rem;
+  padding-top: 2.5rem;
+  background: none;
+  cursor: pointer;
+  color: aqua;
+}
+
+@media only screen and (max-width: 1080px) {
+  .header {
+    display: none;
   }
 }

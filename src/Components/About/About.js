@@ -19,7 +19,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id="about">
       <div className={styles.title}>
         Academic Education
         <p className={styles.formacao}>

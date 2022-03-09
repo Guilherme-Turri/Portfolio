@@ -7,7 +7,9 @@ import linkedin from '../../Assets/linkedin.svg';
 const Contact = () => {
   return (
     <div className={styles.containerContact}>
-      <div className={styles.title3}>Let's Connnect</div>
+      <div className={styles.title3} id="contact">
+        Let's Connnect
+      </div>
       <div className={styles.infoContainer}>
         <div className={styles.contactLeft}>
           <div className={styles.info}>
@@ -28,7 +30,7 @@ const Contact = () => {
             </div>
             <div className={styles.linkedin}>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/guilhermetgiovanni/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -1,5 +1,12 @@
 export const DataProject = [
   {
+    titulo: 'ToDo APP',
+    descricao:
+      'App de Lista de tarefas diárias criado com ReactJS, TypeScript e Styled-Components',
+    git: 'https://github.com/Guilherme-Turri/AppToDo',
+    site: 'https://todots-guilherme-turri.vercel.app/',
+  },
+  {
     titulo: 'Portfolio em React',
     descricao:
       'Site Porftolio contendo informaçoes academicas e profissionais uitilizando ReactJS',
@@ -27,6 +34,14 @@ export const DataProject = [
       'Template de site utilizado Css Flex, totalmente responsivo utlizando mediaqueries',
     git: 'https://github.com/Guilherme-Turri/FlexBlog-Projeto',
     site: 'https://guilherme-turri.github.io/FlexBlog-Projeto/',
+  },
+  {
+    // img: './../static/img/principal.png',
+    titulo: 'GridWildBeast',
+    descricao:
+      'Template de site utilizado Css Grid Layout , totalmente responsivo utlizando mediaqueries',
+    git: 'https://github.com/Guilherme-Turri/Grid-WildBeast',
+    site: 'https://guilherme-turri.github.io/Grid-WildBeast/',
   },
   {
     // img: './../static/img/principal.png',

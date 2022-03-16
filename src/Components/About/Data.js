@@ -31,7 +31,7 @@ export const Data = [
   },
 
   {
-    curso: 'S2B Microsoft',
+    curso: 'S2B - Microsoft',
     local: 'Season',
     conclusao: '2012',
   },

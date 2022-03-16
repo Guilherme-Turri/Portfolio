@@ -6,9 +6,10 @@ p {
   margin: 0;
   padding: 0;
   line-height: 1.5rem;
+}
+.App {
   max-width: 1400px;
 }
-
 /*HOME*/
 .container {
   height: 102vh;

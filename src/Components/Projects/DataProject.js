@@ -1,5 +1,19 @@
 export const DataProject = [
   {
+    titulo: 'Dogs - Rede Social. ',
+    descricao:
+      'Uma rede Social para Cachorros! API DOGS-ORIGAMID. Lib de gráficos Victory. Projeto final Origamid. Autenticação JWT.',
+    git: 'https://github.com/Guilherme-Turri/Dogs',
+    site: 'https://dogs-woad.vercel.app/',
+  },
+  {
+    titulo: 'CodeLeap Test',
+    descricao:
+      'App criado através de im layout de Figma. Consiste em simular uma rede social. CRUD feito no localStorage',
+    git: 'https://github.com/Guilherme-Turri/codeleap',
+    site: 'https://codeleap-guilherme-turri.vercel.app/',
+  },
+  {
     titulo: 'ToDo APP',
     descricao:
       'App de Lista de tarefas diárias criado com ReactJS, TypeScript e Styled-Components',

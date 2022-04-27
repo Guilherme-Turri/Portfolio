@@ -1,8 +1,13 @@
 export const Data = [
   {
-    curso: 'React',
+    curso: 'Redux',
     local: 'Origamid',
     conclusao: 'cursando',
+  },
+  {
+    curso: 'React',
+    local: 'Origamid',
+    conclusao: '2022',
   },
   {
     curso: 'JavaScript ES6',
